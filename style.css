@@ -1,0 +1,113 @@
+@font-face {
+  font-family: badSignal;
+  src: url('Bad Signal.otf');
+}
+
+@font-face {
+  font-family: poppins;
+  src: url('Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: robotoBlack;
+  src: url('Roboto-Black.ttf');
+}
+
+body {
+  height: 15700px; /* Used to enable scrolling */
+  background: linear-gradient(0deg, #000000 0%, #405DE6 51%, #E1306C 85%);
+  text-align: center;
+  max-width: 1920px;
+}
+
+.title {
+  font-family: badSignal;
+  color: #fff;
+  font-size: 200px;
+  margin-top: 400px;
+  margin-bottom: 400px;
+}
+
+.words {
+  font-family: poppins;
+  font-size: 30px;
+  color: #fff;
+}
+
+.endingSentence {
+  font-family: robotoBlack;
+  color: #fff;
+  font-size: 30px;
+}
+
+.impact {
+  font-family: robotoBlack;
+  font-size: 70px;
+  margin-bottom: 500px;
+}
+
+.illustration {
+  width: 60%;
+  height: auto;
+  margin: 100px;
+}
+
+.thoughtsL{
+  font-family: badSignal;
+  font-size: 80px;
+  color: #000;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+.thoughtsR {
+  font-family: badSignal;
+  font-size: 80px;
+  color: #000;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 150px;
+}
+
+.text1 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 300px;
+}
+
+.text2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 300px;
+}
+
+.roseL {
+    margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 350px;
+}
+
+.roseR {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 350px;
+}
+
+.ending1 {
+  font-family: poppins;
+  color: #fff;
+  font-size: 30px;
+}
+
+.ending2 {
+  margin-top: 500px;
+  font-family: badSignal;
+  font-size: 150px;
+  color: #fff;
+  text-align: center;
+}
